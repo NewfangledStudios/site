@@ -1,6 +1,8 @@
 /* Fonts Section */
 
 /* Quattrocentro */
+=======
+/* from Global CSS */
 @import url(https://fonts.googleapis.com/css?family=Quattrocento:400,700);
 
 /* Oswald Demibold */
@@ -235,6 +237,7 @@ body {
 	background-color: #000;
 }
 
+<<<<<<< 8c8300fe2d44569cc5b83175ee789bbdae61e05f
 /* Contact Button in Video Section */
 .contact-button {
 	position: relative;

@@ -1,6 +1,113 @@
+/* Import Quattrocento */
 @import url(https://fonts.googleapis.com/css?family=Quattrocento:400,700);
-@import url(https://fonts.googleapis.com/css?family=Oswald);
+@font-face {
+    font-family: 'oswalddemibold';
+    src: url('fonts/oswald-demibold-webfont.eot');
+    src: url('fonts/oswald-demibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/oswald-demibold-webfont.woff') format('woff'),
+         url('fonts/oswald-demibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+@font-face {
+    font-family: 'oswaldlight';
+    src: url('fonts/oswald-light-webfont.eot');
+    src: url('fonts/oswald-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/oswald-light-webfont.woff') format('woff'),
+         url('fonts/oswald-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	background-color: #000;
+	font-family: 'Quattrocento', serif;
+	color: #edf1f2;
+	width: 100%;
+	margin: 0px;
+}
+
+#slideshow {
+	background-size: 100% 52%;
+}
+
+.slideshow-container {
+	background: url(images/hero_placeholder.jpg) no-repeat;
+	padding-bottom: 49.48%;
+	background-size: 100% 100%;
+}
+
+#slider {
+	text-align: center;
+	background-color: #000;
+	height: 75px;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	bottom: 80px;
+}
+.hero-default-aspect-ratio {
+	padding-bottom: 49.48%	;
+}
+
+.hero-playing-aspect-ratio {
+	padding-bottom: 56.25%;
+}
+
+.circle {
+	margin: 20px;
+	width: 10px;
+	height: 10px;
+ 	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+ 	background: white;
+ 	float: left;
+}
+
+.clearfloat {
+	clear: both;
+}
+.circle-grey {
+	width: 10px;
+	height: 10px;
+ 	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+ 	background: #8f8f8f;
+ 	margin: 20px;
+ 	float: left;
+	}
+
+
+.slider-container {
+	width: 12%;
+	margin: 0 auto;
+	height: 50px;
+	right: 100%;
+	vertical-align: middle;
+	line-height: 200px;
+}
+
+.hero {
+   	width: 100%;
+	position: relative;
+}
+.hero-fit {
+  	height: 100%;
+   	width: 100%;
+}
+
+.work-slide {
+   	width: 100%;
+   	height: 200%;
+   	padding-bottom: 49.48%;
+	background: url(images/top_home_background.png) no-repeat;
+}
+
+/* Newfangled Logos */
 .logo {
 	color: #edf1f2;
 	font-family: 'Quattrocento', serif;
@@ -9,29 +116,352 @@
 .logo .tagline {
 	font-family: 'Quattrocento', serif;
 }
+
 .logo-dark {
+	width: 20%;
+	margin: 0 auto;
+}
+.logo-dark img {
+	width: 50%;
 	color: #303333;
-	font-family: 'Quattrocento', serif;
+	font-style: italic;
+	text-align: center;
+	margin: 0 auto;
 }
 
 .thumbnail-first-word {
-	font-family: 'Oswald', sans-serif;
-	color: #f2d653;
+	font-family: 'oswalddemibold', sans-serif;
+	color: #edf1f2;
+	text-transform: uppercase;
 }
 
 .thumbnail-text {
-	font-family: 'Quattrocento', serif;
-	color: #edf1f2;
+	font-family: 'oswaldlight', serif;
+	color: #f2d653;
 }
 
 .section-header {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'oswalddemibold', sans-serif;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .tab-header {
-	font-family: 'Oswald', sans-serif;
+	padding-top: 20px;
+	font-family: 'oswalddemibold', sans-serif;
+	text-transform: uppercase;
 }
+
+
+#featured	 {
+   	background-color: #8b989a;
+   	text-align: center;
+}
+
+#featured hr, #featured p {
+	width: 50%;
+   	text-align: left;
+   	margin: 0 auto;
+   	color: #edf1f2;
+}
+
+#featured p {
+    padding-top: 20px;
+   	padding-bottom: 20px;
+}
+
+#featured p text {
+   	font-size: 12px;
+   	text-align: left;
+}
+
 
 .footer {
 	background-color: #000;
+}
+
+/* Contact Button in Video Section */
+.contact-button {
+	position: relative;
+	top: 30px;
+	border: 1px solid #8b8f8f;
+	margin: 0 auto;
+	display: block;
+ 	height: 33px;
+ 	width: 100px;
+ 	color: #edf1f2;
+ 	text-decoration: none;
+ 	background-color: #343434;
+ 	border-radius: 10px;
+ 	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.contact-text {
+	position: relative;
+	top: 15%;
+}
+
+.sphere-button {
+	position: relative;
+	top: 75px;
+ 	color: #edf1f2;
+ 	text-decoration: none;
+ 	border: 2px solid #899597;
+ 	height: 50px;
+ 	width: 250px;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+ 	border-radius: 10px;
+ 	background-color: #9caaac;
+ 	box-shadow: 0px 10px 0px #808c8e;
+}
+
+.sphere-text {
+	position: relative;
+	top: 35%;
+}
+#certifications {
+	padding-top: 11px;
+	text-align: center;
+	width: 30%;
+	margin: 0 auto;
+}
+
+#certifications img {
+	vertical-align: middle;
+}
+
+.bottom-row {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#social {
+	width: 50%;
+	position: relative;
+	float: left;
+}
+
+#contact {
+	width: 50%;
+	float: right;
+}
+
+#contact a {
+	color: #edf1f2;
+}
+
+/* Featured work section */
+.featured-work-row {
+	width: 75%;
+	height: 220px;
+	margin: 0 auto;
+}
+
+/* Featured Items */
+.featured-item {
+	height: 232px;
+	width: 232px;
+	border: 1px solid #000;
+	background-color: #9caaac;
+	margin-right: 10px;
+	float:left;
+	box-shadow: 0px 10px 0px #849092;
+	position: relative;
+}
+
+.tab-header-featured {
+	padding-top: 100px;
+	font-family: 'oswalddemibold', sans-serif;
+	text-transform: uppercase;
+}
+
+.ideo {
+	background-image: url('images/ideo.png');
+}
+
+.amp {
+	background-image: url('images/amp.png');
+}
+
+.staples {
+	background-image: url('images/staples.png');
+}
+
+.pega {
+	background-image: url('images/pega.png');
+}
+
+.featured-item-caption {
+	margin-top: 10px;
+	width: 96%;
+	position: absolute;
+	bottom: 0px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	background-color: rgba(75,80, 80,0.5);
+	text-align: left;
+}
+
+#capabilities {
+	position: relative;
+	top: 75px;
+	background-color: #303333;
+	width: 60%;
+	margin: 0 auto;
+	height: 425px;
+	box-shadow: 0px 15px 0px #808c8e;
+}
+
+
+.capabilities-top-row, .capabilities-bottom-row {
+	margin: 0 auto;
+	width: 95%;
+}
+
+.capabilities-box-write {
+	width: 240px;
+	height: 60px;
+	margin-right: 10px;
+	background-color: #495153;
+	font-family: 'oswalddemibold', sans-serif;
+	float: left;
+}
+
+.capabilities-box-write p {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+.capabilities-box-shoot {
+	width: 240px;
+	height: 60px;
+	background-color: #495153;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-family: 'oswalddemibold', sans-serif;
+	float: left;
+}
+
+.capabilities-box-shoot p {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+.capabilities-box-design {
+	width: 240px;
+	height: 60px;
+	background-color: #495153;
+	margin-bottom: 10px;
+	font-family: 'oswalddemibold', sans-serif;
+	float: left;
+}
+
+.capabilities-box-design p {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+.capabilities-box-animate {
+	width: 240px;
+	height: 60px;
+	margin-right: 10px;
+	background-color: #495153;
+	font-family: 'oswalddemibold', sans-serif;
+	float: left;
+}
+
+.capabilities-box-animate p {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+.capabilities-box-edit {
+	width: 240px;
+	height: 60px;
+	background-color: #495153;
+	margin-right: 10px;
+	font-family: 'oswalddemibold', sans-serif;
+	float: left;
+}
+
+.capabilities-box-edit p {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+.capabilities-box-color {
+	width: 240px;
+	height: 60px;
+	background-color: #495153;
+	font-family: 'oswalddemibold', sans-serif;
+	float: left;
+}
+
+.capabilities-box-color p {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+.capabilities-center-top {
+	display: none;
+	height: 200px;
+}
+
+.capabilities-center-bottom {
+	display: none;
+	height: 200px;
+}
+
+.first-vertical-line {
+	position: relative;
+	top: 30px;
+	width: 1px;
+	text-align: center;
+	margin: 0 auto;
+    border-left: 1px solid #c5cccd;
+    height: 40px;
+}
+.second-vertical-line {
+	position: relative;
+	top: 50px;
+	width: 1px;
+	text-align: center;
+	margin: 0 auto;
+    border-left: 1px solid #c5cccd;
+    height: 50px;
+}
+.third-vertical-line {
+	position: relative;
+	top: 100px;
+	width: 1px;
+	text-align: center;
+	margin: 0 auto;
+    border-left: 1px solid #c5cccd;
+    height: 35px;
+}
+.vertical-line {
+	position: relative;
+	top: 40px;
+	width: 1px;
+	text-align: center;
+	margin: 0 auto;
+    border-left: 1px solid #c5cccd;
+    height: 60px;
+}
+
+.cmob {
+	padding-left: 20px;
+	font-size: 10px;
+}
+
+#contact, #contact a {
+	color: #565e5f;
+	text-align: right;
+	font-size: 10px;
 }

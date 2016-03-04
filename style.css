@@ -29,6 +29,12 @@ body {
 	margin: 0px;
 }
 
+
+.carousel {
+	position: relative;
+	top: 10px;
+	vertical-align: middle;
+}
 #slideshow {
 	background-size: 100% 52%;
 }
@@ -46,7 +52,6 @@ body {
 	margin: 0 auto;
 	width: 100%;
 	position: relative;
-	bottom: 80px;
 }
 .hero-default-aspect-ratio {
 	padding-bottom: 49.48%	;

@@ -467,6 +467,16 @@ body {
 
 #contact, #contact a {
 	color: #565e5f;
+	line-height: 2.2em;
 	text-align: right;
 	font-size: 10px;
+}
+
+#social {
+	position: relative;
+	left: 12%;
+}
+
+.social-icons {
+	padding-right: 10px;
 }

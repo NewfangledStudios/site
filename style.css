@@ -40,6 +40,7 @@ body {
 }
 
 .slideshow-container {
+	padding-top: 10px;
 	background: url(images/hero_placeholder.jpg) no-repeat;
 	padding-bottom: 49.48%;
 	background-size: 100% 100%;
@@ -107,7 +108,7 @@ body {
 
 .work-slide {
    	width: 100%;
-   	height: 200%;
+   	height: 100%;
    	padding-bottom: 49.48%;
 	background: url(images/top_home_background.png) no-repeat;
 }
@@ -128,6 +129,7 @@ body {
 }
 .logo-dark img {
 	width: 50%;
+	display: block;
 	color: #303333;
 	font-style: italic;
 	text-align: center;
@@ -204,6 +206,8 @@ body {
  	vertical-align: middle;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .contact-text {
@@ -249,6 +253,7 @@ body {
 }
 
 #social {
+	padding-top: 15px;
 	width: 50%;
 	position: relative;
 	float: left;
@@ -279,6 +284,26 @@ body {
 	margin-right: 10px;
 	float:left;
 	box-shadow: 0px 10px 0px #849092;
+	position: relative;
+}
+
+/* Gallery work section */
+.gallery-work-row {
+	width: 90%;
+	height: 220px;
+	margin: 0 auto;
+}
+
+
+
+/* Featured Items */
+.gallery-item {
+	height: 232px;
+	width: 232px;
+	border: 1px solid #000;
+	background-color: #9caaac;
+	margin-right: 10px;
+	float:left;
 	position: relative;
 }
 
@@ -463,6 +488,16 @@ body {
 .cmob {
 	padding-left: 20px;
 	font-size: 10px;
+}
+
+.video-rule {
+	color: #959a9a !important;
+	background-color: #959a9a !important;
+}
+
+.video-intro {
+	font-size: 11px;
+	color: #959a9a !important;
 }
 
 #contact, #contact a {

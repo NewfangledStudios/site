@@ -1,7 +1,7 @@
 /* Fonts Section */
 
 /* Quattrocentro */
-=======
+
 /* from Global CSS */
 @import url(https://fonts.googleapis.com/css?family=Quattrocento:400,700);
 
@@ -639,3 +639,11 @@ body {
 	background-color: rgba(75,80, 80,0.5);
 	text-align: left;
 }
+
+/*.gallery-filter-category {
+	float: left;
+}
+
+.gallery-link-and-search-box {
+	float: right;
+}*/

@@ -2706,7 +2706,7 @@
   right: 0;
   top: 0;
   background: #f2d653;
-  height: 4px;
+  height: 10px;
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
   -webkit-transition-property: transform;

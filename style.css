@@ -1,5 +1,9 @@
-/* Import Quattrocento */
+/* Fonts Section */
+
+/* Quattrocentro */
 @import url(https://fonts.googleapis.com/css?family=Quattrocento:400,700);
+
+/* Oswald Demibold */
 @font-face {
     font-family: 'oswalddemibold';
     src: url('fonts/oswald-demibold-webfont.eot');
@@ -11,6 +15,7 @@
 
 }
 
+/* Oswald Light */
 @font-face {
     font-family: 'oswaldlight';
     src: url('fonts/oswald-light-webfont.eot');
@@ -21,6 +26,7 @@
     font-style: normal;
 
 }
+
 body {
 	background-color: #000;
 	font-family: 'Quattrocento', serif;
@@ -35,13 +41,15 @@ body {
 	top: 10px;
 	vertical-align: middle;
 }
+/* Slideshow in hero section */
+
 #slideshow {
 	background-size: 100% 52%;
 }
 
 .slideshow-container {
 	padding-top: 10px;
-	background: url(images/hero_placeholder.jpg) no-repeat;
+	background: url(images/newfangled-gradient.png) no-repeat;
 	padding-bottom: 49.48%;
 	background-size: 100% 100%;
 }
@@ -62,6 +70,7 @@ body {
 	padding-bottom: 56.25%;
 }
 
+/* Carousel Circle */
 .circle {
 	margin: 20px;
 	width: 10px;
@@ -106,9 +115,42 @@ body {
    	width: 100%;
 }
 
+#top-nav {
+	width: 100%;
+	height: 50px;
+}
+
+.top-nav-container {
+	width: 40%;
+	margin: 0 auto;
+}
+/* Nav logo */
+.nav-logo {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.nav-logo img {
+	width: 100px;
+}
+
+.nav-right {
+	width: 50%;
+	float: right;
+	text-align: center;
+}
+
+.nav-right a {
+	font-family: 'oswaldlight';
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #f5f5f5;
+}
+
 .work-slide {
    	width: 100%;
-   	height: 100%;
+   	height: 190%;
    	padding-bottom: 49.48%;
 	background: url(images/top_home_background.png) no-repeat;
 }
@@ -266,6 +308,7 @@ body {
 
 #contact a {
 	color: #edf1f2;
+	text-decoration: none;
 }
 
 /* Featured work section */
@@ -292,6 +335,7 @@ body {
 	width: 90%;
 	height: 220px;
 	margin: 0 auto;
+	padding-bottom: 25px;
 }
 
 
@@ -300,7 +344,7 @@ body {
 .gallery-item {
 	height: 232px;
 	width: 232px;
-	border: 1px solid #000;
+	border: 1px solid #4c5151;
 	background-color: #9caaac;
 	margin-right: 10px;
 	float:left;
@@ -374,7 +418,7 @@ body {
 .capabilities-box-shoot {
 	width: 240px;
 	height: 60px;
-	background-color: #495153;
+	background-color: #60696b;
 	margin-right: 10px;
 	margin-bottom: 10px;
 	font-family: 'oswalddemibold', sans-serif;
@@ -415,10 +459,11 @@ body {
 .capabilities-box-edit {
 	width: 240px;
 	height: 60px;
-	background-color: #495153;
+	background-color: #545d5f;
 	margin-right: 10px;
 	font-family: 'oswalddemibold', sans-serif;
 	float: left;
+	border-bottom: 10px #4d5658;
 }
 
 .capabilities-box-edit p {
@@ -428,7 +473,7 @@ body {
 .capabilities-box-color {
 	width: 240px;
 	height: 60px;
-	background-color: #495153;
+	background-color: #60696b;
 	font-family: 'oswalddemibold', sans-serif;
 	float: left;
 }
@@ -485,9 +530,18 @@ body {
     height: 60px;
 }
 
+.top-nav {
+	background-color: #000;
+	width: 100%;
+}
+
+.top-nav-container {
+	width: 70%;
+}
+
 .cmob {
 	padding-left: 20px;
-	font-size: 10px;
+	font-size: 12px;
 }
 
 .video-rule {
@@ -507,6 +561,8 @@ body {
 	font-size: 10px;
 }
 
+
+/* Social Media icon footer in lower left */
 #social {
 	position: relative;
 	left: 12%;
@@ -514,4 +570,20 @@ body {
 
 .social-icons {
 	padding-right: 10px;
+}
+
+/*
+ * Gallery CSS
+ */
+
+#gallery {
+	background-color: #303333;
+	padding-bottom: 30px;
+}
+
+#gallery .tab-header-featured {
+	padding-top: 10px;
+	font-family: 'oswalddemibold', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
 }
